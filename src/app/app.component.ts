@@ -3,8 +3,17 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'IM MỒM ĐI LONG';
+
+  test() {
+
+    console.log('IM MỒM ĐI THẮNG');
+  }
+
+  ngOnInit() {
+    console.log('OK OKE OKE');
+  }
 }
